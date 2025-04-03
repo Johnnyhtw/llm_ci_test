@@ -36,13 +36,13 @@
 - `2024魔球比賽紀錄.md` - 比賽紀錄資料
 
 ## 支援的 LLM 模型
-預設使用 `deepseek/deepseek-chat-v3-0324:free`，可在 `main.py`修改 `LLM_MODULE` 變數切換其他模型。  
+預設使用 `deepseek/deepseek-chat-v3-0324:free`，可在 `main.py`修改 `LLM_MODULE` 變數切換其他模型，  
 例如：
 - meta-llama/llama-3.3-70b-instruct:free
 - qwen/qwen-2.5-72b-instruct:free
 
 ## 如果您有自己想驗證的MD檔
-可以在 `main.py`修改 `MD_FULL_PATH` 變數來使用自己的MD來使用自己的MD
+可以在 `main.py`修改 `MD_FULL_PATH` 變數來使用自己的MD來使用自己的MD。
 
 ## 注意事項
 - 請妥善保管您的 API 金鑰
